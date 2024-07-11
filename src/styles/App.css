@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'DniproCity';
+  src: url('../fonts/DniproCity-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DniproCity';
+  src: url('../fonts/DniproCity-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.middle-page {
+  min-height: 75vh;
+}
+
+
+.regular-font {
+  font-family: 'DniproCity', sans-serif;
+  font-weight: normal;
+}
+
+.bold-font {
+  font-family: 'DniproCity', sans-serif;
+  font-weight: bold;
+}
+
+
+.header-button__img.hovered {
+  filter: brightness(0) invert(1);
+  
+}
+
+.map-wrapper {
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+.map {
+  height: 45vh;
+  border-radius: 20px;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .map {
+    height: 66vh;
+  }
+}
+@media (min-width: 1024px) {
+  .map-wrapper {
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+}
+@media (min-width: 1280px) {
+  .map-wrapper {
+    margin-left: 20vh;
+    margin-right: 20vh;
+  }
+}
+.header-button.hovered {
+  transition: all 0.3s ease;
+  background-color: #2B487C;
+  color: white;
+}
+
+.header-button.unhovered {
+  transition: all 0.3s ease;
+}
+
+.footer {
+  text-align: center;
+  padding-top:7%;
+  padding-bottom:7%;
+  height: 20vh;
+  background-color: #DCE8FF;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+@media (min-width: 768px) {
+  .footer {
+    padding-top:0%;
+    padding-bottom:0%;
+    height: 10vh;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .footer {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}

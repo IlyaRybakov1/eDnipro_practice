@@ -1,0 +1,223 @@
+.header {
+    height: 10vh;
+}
+
+@media (min-width: 768px) {
+    .header {
+        height: 15vh;
+    }
+}
+
+
+.header-top {
+    padding-left: 6%;
+    padding-right: 6%;
+    height: 93%;
+}
+
+.header-bottom {
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 7%;
+}
+
+@media (min-width: 1024px) {
+    .header-bottom {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .header-bottom {
+        padding-left: 16%;
+        padding-right: 16%;
+    }
+}
+
+
+.header-button {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 13px;
+}
+
+.dropdown-item {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.2s;
+}
+
+.dropdown-item:hover {
+    background-color: #DCE8FF;
+}
+
+
+/* Модальное меню */
+.modal-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Выравниваем элементы по правому краю */
+    z-index: 1000;
+}
+
+/* Кнопки меню */
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0; /* Убираем пробелы между кнопками */
+    z-index: 1001;
+    position: absolute;
+    right: -100%; /* Начальная позиция кнопок */
+    animation: slideIn 0.5s forwards; /* Анимация выезда */
+    top: 6%; /* Кнопки выше центра */
+    width: 100%; /* Полная ширина */
+    padding-top: 40px; /* Отступ для крестика */
+}
+
+/* Анимация исчезания кнопок */
+.menu-content.closing {
+    animation: slideOut 0.5s forwards; /* Анимация исчезания */
+}
+
+/* Кнопка закрытия */
+.close-icon {
+    position: absolute;
+    top: -8px; /* Положение крестика */
+    right: -11px; /* Положение крестика */
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    z-index: 1002; /* Поверх кнопок */
+}
+
+/* Кнопки */
+.menu-content button {
+    text-align: center;
+    padding: 10px 0; /* Увеличение высоты кнопок для полного заполнения */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Полная ширина */
+}
+
+
+.dropdown-toggle {
+    background-color: #DCE8FF;
+    padding:  10px 0; /* Подстройте по мере необходимости */
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    text-align: left; /* Гарантирует корректное выравнивание текста */
+}
+
+
+.header-mobile-dropdown {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Скрыть элементы за пределами контейнера */
+}
+
+.header-mobile-button {
+    background-color: #DCE8FF;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    text-align: left;
+}
+
+.submenu {
+    position: relative;
+    overflow: hidden;
+    transition: height 0.5s ease-out; /* Плавное изменение высоты */
+    display: flex;
+    flex-direction: column;
+}
+
+.submenu button {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background: white;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    transform: translateY(-100%); /* Начальное состояние кнопок вне экрана */
+    transition: transform 0.3s ease-out; /* Плавная анимация перемещения */
+}
+
+.submenu button:hover {
+    background-color: #DCE8FF;
+}
+
+.submenu-button-active {
+    color: white;
+    background-color: #7096DC;
+}
+
+.header-mobile-logo {
+    filter: brightness(0) invert(1);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0); /* Начальное прозрачное затемнение */
+    z-index: 1000;
+    transition: background 0.5s ease; /* Плавная анимация затемнения */
+}
+
+.overlay.active {
+    background: rgba(0, 0, 0, 0.2); /* Затемненный фон при активации overlay */
+}
+
+
+/* Анимация выезда кнопок */
+@keyframes slideIn {
+    from {
+        right: -100%; /* Начальная позиция за экраном */
+    }
+    to {
+        right: 0%; /* Конечная позиция */
+    }
+}
+
+/* Анимация исчезания кнопок */
+@keyframes slideOut {
+    from {
+        right: 0%; /* Начальная позиция */
+    }
+    to {
+        right: -100%; /* Конечная позиция за экраном */
+    }
+}
