@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/eDnipro_Osvita/static/css/main.61544b9f.css",
+    "main.js": "/eDnipro_Osvita/static/js/main.beee1e82.js",
+    "static/js/453.8ab44547.chunk.js": "/eDnipro_Osvita/static/js/453.8ab44547.chunk.js",
+    "static/media/photosprava.svg": "/eDnipro_Osvita/static/media/photosprava.f2a382a4834155fe59eebc05d05c6470.svg",
+    "static/media/schoolphoto.svg": "/eDnipro_Osvita/static/media/schoolphoto.b4fdea430b6f0d242e5be801108ce3d2.svg",
+    "static/media/preschoolphoto.svg": "/eDnipro_Osvita/static/media/preschoolphoto.a8381ad911519eb5ab84dbb2f9a5bdb4.svg",
+    "static/media/photo9.svg": "/eDnipro_Osvita/static/media/photo9.522a697548376a813b34e06fb6d58dee.svg",
+    "static/media/photo10.svg": "/eDnipro_Osvita/static/media/photo10.8eca76d50aaf7aba51cd9e1f71f0119f.svg",
+    "static/media/ticketphoto.svg": "/eDnipro_Osvita/static/media/ticketphoto.fe8885a4392a45ff57692e566f7abb08.svg",
+    "static/media/DniproCity-Regular.ttf": "/eDnipro_Osvita/static/media/DniproCity-Regular.18a526375a8c935d06e0.ttf",
+    "static/media/DniproCity-Bold.ttf": "/eDnipro_Osvita/static/media/DniproCity-Bold.6451a718e7752e2e57ce.ttf",
+    "static/media/preschoolplashka.svg": "/eDnipro_Osvita/static/media/preschoolplashka.171455f35eab240ee57720f4d0666e33.svg",
+    "static/media/plashka.svg": "/eDnipro_Osvita/static/media/plashka.9b5b13ec20940aa6e35ae0d78930826b.svg",
+    "static/media/mapplashka.svg": "/eDnipro_Osvita/static/media/mapplashka.36c34fe5c60a9e5d28ccb9efd301f6eb.svg",
+    "static/media/header-logo.svg": "/eDnipro_Osvita/static/media/header-logo.d2d8d6dda328c901abe3e2a885969f80.svg",
+    "static/media/kvitokplashka.svg": "/eDnipro_Osvita/static/media/kvitokplashka.6c5b6ddb4dced379549cffd7533a49b3.svg",
+    "static/media/icon-culture.svg": "/eDnipro_Osvita/static/media/icon-culture.d2c6fb435a3c67012c9e41e497e17df1.svg",
+    "static/media/logo-telegram.svg": "/eDnipro_Osvita/static/media/logo-telegram.9fc4a109963af0846569160515204051.svg",
+    "static/media/icon-school.svg": "/eDnipro_Osvita/static/media/icon-school.9e225054b7bba5b43d4448046f29b7f8.svg",
+    "static/media/icon-preschool.svg": "/eDnipro_Osvita/static/media/icon-preschool.264e747b0faa1170b377f30c808cb3f3.svg",
+    "static/media/footer-logo.svg": "/eDnipro_Osvita/static/media/footer-logo.445cb3616d63ff9d6fd9ad185c5cb1fc.svg",
+    "static/media/icon-sport.svg": "/eDnipro_Osvita/static/media/icon-sport.582e4466aceb82554a10350f6fb3696a.svg",
+    "static/media/burger-icon.svg": "/eDnipro_Osvita/static/media/burger-icon.681fdad1cd6a0cc38aa603700cb1aac8.svg",
+    "static/media/logo-instagram.svg": "/eDnipro_Osvita/static/media/logo-instagram.a369ca27344b825506879ccf15bb891c.svg",
+    "static/media/logo-facebook.svg": "/eDnipro_Osvita/static/media/logo-facebook.1bc6b913f8aa02d04a120c355d11e958.svg",
+    "index.html": "/eDnipro_Osvita/index.html",
+    "static/media/map-pointer.svg": "/eDnipro_Osvita/static/media/map-pointer.3f8f8ca3a73d87a3e6f022d48131d075.svg",
+    "static/media/close-icon.svg": "/eDnipro_Osvita/static/media/close-icon.c02f048f1701ccce0fabd56231b4f5be.svg",
+    "main.61544b9f.css.map": "/eDnipro_Osvita/static/css/main.61544b9f.css.map",
+    "main.beee1e82.js.map": "/eDnipro_Osvita/static/js/main.beee1e82.js.map",
+    "453.8ab44547.chunk.js.map": "/eDnipro_Osvita/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61544b9f.css",
+    "static/js/main.beee1e82.js"
+  ]
+}
